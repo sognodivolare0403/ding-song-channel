@@ -1,0 +1,8 @@
+.vercel/
+node_modules/
+*.zip
+*.tar.gz
+.env
+.env.*
+!.env.example
+desktop-layout-fixed.png
