@@ -2,7 +2,17 @@
 
 非官方个人主题网站，基于丁颂吧当前公开可访问的 21 个主题与可加载回复制作。
 
-线上网站：[ding-song-channel.vercel.app](https://ding-song-channel.vercel.app/)。
+线上网站：[ding-song-channel.rth1.xyz](https://ding-song-channel.rth1.xyz/)（热铁盒免费托管）。
+
+备用网站：[ding-song-channel.vercel.app](https://ding-song-channel.vercel.app/)。
+
+## 热铁盒免费托管
+
+热铁盒免费账户在本次部署中不支持上传 JPG，因此该版本的肖像引用已确认的贴吧公开原图地址；其可用性依赖原图服务。网站图标嵌入 HTML，其余页面文件直接托管于热铁盒。
+
+运行 `node scripts/prepare-retiehe.cjs`，生成 `.retiehe/` 目录。把里面的文件上传到热铁盒网站根目录，并在上传中心点击“点此开始上传”。该标准账户使用手动上传；本仓库未配置热铁盒自动部署。
+
+本次已验证首页与照片加载、21 篇主题渲染、电视换台、分类筛选和搜索。平台免费额度与服务政策以平台实际说明为准。
 
 ## Vercel 部署
 
